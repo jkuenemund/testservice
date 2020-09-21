@@ -34,4 +34,10 @@ class CalcControllerTest {
 
         assertThat(addition).isEqualTo(12);
     }
+
+    @Test
+    void test04() {
+
+        assertThat(false).isTrue();
+    }
 }
