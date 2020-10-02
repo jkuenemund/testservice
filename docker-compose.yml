@@ -1,0 +1,9 @@
+version: '2'
+services:
+  testservice:
+    restart: "no"
+
+    build: .
+
+    ports:
+      - 8080:8080/tcp
