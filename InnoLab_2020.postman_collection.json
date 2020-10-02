@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "25a4212f-308b-4468-9aed-b82b351ceb78",
+		"name": "InnoLab_2020",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getMethods",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calc/methods",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calc",
+						"methods"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAddition",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calc/methods",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calc",
+						"methods"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "kill",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calc/kill",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calc",
+						"kill"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
